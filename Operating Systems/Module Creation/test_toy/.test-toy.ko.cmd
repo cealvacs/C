@@ -1,0 +1,1 @@
+cmd_/home/cop4610/test_toy/test-toy.ko := ld -r -m elf_i386 -T /home/cop4610/linux-2.6.36-dev/scripts/module-common.lds --build-id  -o /home/cop4610/test_toy/test-toy.ko /home/cop4610/test_toy/test-toy.o /home/cop4610/test_toy/test-toy.mod.o
